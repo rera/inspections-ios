@@ -21,6 +21,20 @@
 		9E403C8117399F2000A0D406 /* Inspections.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E403C7F17399F2000A0D406 /* Inspections.xcdatamodeld */; };
 		9E403C8417399F2000A0D406 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E403C8317399F2000A0D406 /* MasterViewController.m */; };
 		9E403C8717399F2000A0D406 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E403C8617399F2000A0D406 /* DetailViewController.m */; };
+		9E403C931739B18900A0D406 /* Clipboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E403C8D1739B18900A0D406 /* Clipboard.png */; };
+		9E403C941739B18900A0D406 /* Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E403C8E1739B18900A0D406 /* Checkmark@2x.png */; };
+		9E403C951739B18900A0D406 /* Clipboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E403C8F1739B18900A0D406 /* Clipboard@2x.png */; };
+		9E403C961739B18900A0D406 /* Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E403C901739B18900A0D406 /* Checkmark.png */; };
+		9E403C971739B18900A0D406 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E403C911739B18900A0D406 /* logo.png */; };
+		9E403C981739B18900A0D406 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E403C921739B18900A0D406 /* logo@2x.png */; };
+		9E403C9B1739B6E700A0D406 /* Add-to-Cloud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E403C991739B6E600A0D406 /* Add-to-Cloud@2x.png */; };
+		9E403C9C1739B6E700A0D406 /* Add-to-Cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E403C9A1739B6E700A0D406 /* Add-to-Cloud.png */; };
+		9E403C9F1739B75400A0D406 /* License.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E403C9D1739B75400A0D406 /* License.png */; };
+		9E403CA01739B75400A0D406 /* License@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E403C9E1739B75400A0D406 /* License@2x.png */; };
+		9E403CA31739BB4300A0D406 /* InspectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E403CA21739BB4300A0D406 /* InspectionViewController.m */; };
+		9E403CA61739BBCA00A0D406 /* SignaturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E403CA51739BBCA00A0D406 /* SignaturesViewController.m */; };
+		9E403CA91739BC1300A0D406 /* ReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E403CA81739BC1300A0D406 /* ReviewViewController.m */; };
+		9E403CAC1739BC4C00A0D406 /* SubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E403CAB1739BC4C00A0D406 /* SubmitViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +58,24 @@
 		9E403C8317399F2000A0D406 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		9E403C8517399F2000A0D406 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		9E403C8617399F2000A0D406 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		9E403C8D1739B18900A0D406 /* Clipboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clipboard.png; sourceTree = "<group>"; };
+		9E403C8E1739B18900A0D406 /* Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark@2x.png"; sourceTree = "<group>"; };
+		9E403C8F1739B18900A0D406 /* Clipboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clipboard@2x.png"; sourceTree = "<group>"; };
+		9E403C901739B18900A0D406 /* Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkmark.png; sourceTree = "<group>"; };
+		9E403C911739B18900A0D406 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		9E403C921739B18900A0D406 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		9E403C991739B6E600A0D406 /* Add-to-Cloud@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add-to-Cloud@2x.png"; sourceTree = "<group>"; };
+		9E403C9A1739B6E700A0D406 /* Add-to-Cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add-to-Cloud.png"; sourceTree = "<group>"; };
+		9E403C9D1739B75400A0D406 /* License.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = License.png; sourceTree = "<group>"; };
+		9E403C9E1739B75400A0D406 /* License@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "License@2x.png"; sourceTree = "<group>"; };
+		9E403CA11739BB4200A0D406 /* InspectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectionViewController.h; sourceTree = "<group>"; };
+		9E403CA21739BB4300A0D406 /* InspectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectionViewController.m; sourceTree = "<group>"; };
+		9E403CA41739BBCA00A0D406 /* SignaturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignaturesViewController.h; sourceTree = "<group>"; };
+		9E403CA51739BBCA00A0D406 /* SignaturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignaturesViewController.m; sourceTree = "<group>"; };
+		9E403CA71739BC1300A0D406 /* ReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewViewController.h; sourceTree = "<group>"; };
+		9E403CA81739BC1300A0D406 /* ReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewViewController.m; sourceTree = "<group>"; };
+		9E403CAA1739BC4B00A0D406 /* SubmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitViewController.h; sourceTree = "<group>"; };
+		9E403CAB1739BC4C00A0D406 /* SubmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +131,15 @@
 				9E403C8317399F2000A0D406 /* MasterViewController.m */,
 				9E403C8517399F2000A0D406 /* DetailViewController.h */,
 				9E403C8617399F2000A0D406 /* DetailViewController.m */,
+				9E403CA11739BB4200A0D406 /* InspectionViewController.h */,
+				9E403CA21739BB4300A0D406 /* InspectionViewController.m */,
 				9E403C7F17399F2000A0D406 /* Inspections.xcdatamodeld */,
+				9E403CA41739BBCA00A0D406 /* SignaturesViewController.h */,
+				9E403CA51739BBCA00A0D406 /* SignaturesViewController.m */,
+				9E403CA71739BC1300A0D406 /* ReviewViewController.h */,
+				9E403CA81739BC1300A0D406 /* ReviewViewController.m */,
+				9E403CAA1739BC4B00A0D406 /* SubmitViewController.h */,
+				9E403CAB1739BC4C00A0D406 /* SubmitViewController.m */,
 				9E403C6B17399F2000A0D406 /* Supporting Files */,
 			);
 			path = Inspections;
@@ -108,6 +148,16 @@
 		9E403C6B17399F2000A0D406 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9E403C9D1739B75400A0D406 /* License.png */,
+				9E403C9E1739B75400A0D406 /* License@2x.png */,
+				9E403C991739B6E600A0D406 /* Add-to-Cloud@2x.png */,
+				9E403C9A1739B6E700A0D406 /* Add-to-Cloud.png */,
+				9E403C8D1739B18900A0D406 /* Clipboard.png */,
+				9E403C8E1739B18900A0D406 /* Checkmark@2x.png */,
+				9E403C8F1739B18900A0D406 /* Clipboard@2x.png */,
+				9E403C901739B18900A0D406 /* Checkmark.png */,
+				9E403C911739B18900A0D406 /* logo.png */,
+				9E403C921739B18900A0D406 /* logo@2x.png */,
 				9E403C6C17399F2000A0D406 /* Inspections-Info.plist */,
 				9E403C6D17399F2000A0D406 /* InfoPlist.strings */,
 				9E403C7017399F2000A0D406 /* main.m */,
@@ -175,6 +225,16 @@
 				9E403C7917399F2000A0D406 /* Default@2x.png in Resources */,
 				9E403C7B17399F2000A0D406 /* Default-568h@2x.png in Resources */,
 				9E403C7E17399F2000A0D406 /* MainStoryboard.storyboard in Resources */,
+				9E403C931739B18900A0D406 /* Clipboard.png in Resources */,
+				9E403C941739B18900A0D406 /* Checkmark@2x.png in Resources */,
+				9E403C951739B18900A0D406 /* Clipboard@2x.png in Resources */,
+				9E403C961739B18900A0D406 /* Checkmark.png in Resources */,
+				9E403C971739B18900A0D406 /* logo.png in Resources */,
+				9E403C981739B18900A0D406 /* logo@2x.png in Resources */,
+				9E403C9B1739B6E700A0D406 /* Add-to-Cloud@2x.png in Resources */,
+				9E403C9C1739B6E700A0D406 /* Add-to-Cloud.png in Resources */,
+				9E403C9F1739B75400A0D406 /* License.png in Resources */,
+				9E403CA01739B75400A0D406 /* License@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +250,10 @@
 				9E403C8117399F2000A0D406 /* Inspections.xcdatamodeld in Sources */,
 				9E403C8417399F2000A0D406 /* MasterViewController.m in Sources */,
 				9E403C8717399F2000A0D406 /* DetailViewController.m in Sources */,
+				9E403CA31739BB4300A0D406 /* InspectionViewController.m in Sources */,
+				9E403CA61739BBCA00A0D406 /* SignaturesViewController.m in Sources */,
+				9E403CA91739BC1300A0D406 /* ReviewViewController.m in Sources */,
+				9E403CAC1739BC4C00A0D406 /* SubmitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

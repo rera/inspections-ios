@@ -34,9 +34,12 @@
 - (void)configureView
 {
     // Update the user interface for the detail item.
+    self.navigationController.navigationBarHidden = YES;
 
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@"timeStamp"] description];
+        self.navigationItem.title = [[self.detailItem valueForKey:@"timeStamp"] description];
+    } else {
+        
     }
 }
 
