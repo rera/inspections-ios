@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
 
-@interface InspectionViewController : UITableViewController
+@interface InspectionViewController : UITableViewController {
+    NSObject *bindings;
+}
+
+@property(strong, nonatomic) NSManagedObject *inspection;
+
+@property(strong, nonatomic) IBOutlet UISwitch *completedSwitch;
+@property(strong, nonatomic) IBOutlet UITextField *vinText;
 
 @end

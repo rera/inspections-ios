@@ -124,15 +124,16 @@
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
     // Edit the entity name as appropriate.
-    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Event" inManagedObjectContext:self.managedObjectContext];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Inspection" inManagedObjectContext:self.managedObjectContext];
     [fetchRequest setEntity:entity];
     
     // Set the batch size to a suitable number.
     [fetchRequest setFetchBatchSize:20];
     
     // Edit the sort key as appropriate.
-    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"timeStamp" ascending:NO];
-    NSArray *sortDescriptors = @[sortDescriptor];
+    NSSortDescriptor *completedSortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"completed" ascending:YES];
+    NSSortDescriptor *timeStampSortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"timeStamp" ascending:NO];
+    NSArray *sortDescriptors = @[completedSortDescriptor, timeStampSortDescriptor];
     
     [fetchRequest setSortDescriptors:sortDescriptors];
     

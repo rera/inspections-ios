@@ -124,16 +124,16 @@
 		9E403C6A17399F2000A0D406 /* Inspections */ = {
 			isa = PBXGroup;
 			children = (
+				9E403C7C17399F2000A0D406 /* MainStoryboard.storyboard */,
+				9E403C7F17399F2000A0D406 /* Inspections.xcdatamodeld */,
 				9E403C7317399F2000A0D406 /* AppDelegate.h */,
 				9E403C7417399F2000A0D406 /* AppDelegate.m */,
-				9E403C7C17399F2000A0D406 /* MainStoryboard.storyboard */,
 				9E403C8217399F2000A0D406 /* MasterViewController.h */,
 				9E403C8317399F2000A0D406 /* MasterViewController.m */,
 				9E403C8517399F2000A0D406 /* DetailViewController.h */,
 				9E403C8617399F2000A0D406 /* DetailViewController.m */,
 				9E403CA11739BB4200A0D406 /* InspectionViewController.h */,
 				9E403CA21739BB4300A0D406 /* InspectionViewController.m */,
-				9E403C7F17399F2000A0D406 /* Inspections.xcdatamodeld */,
 				9E403CA41739BBCA00A0D406 /* SignaturesViewController.h */,
 				9E403CA51739BBCA00A0D406 /* SignaturesViewController.m */,
 				9E403CA71739BC1300A0D406 /* ReviewViewController.h */,
@@ -378,6 +378,7 @@
 				9E403C8C17399F2000A0D406 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

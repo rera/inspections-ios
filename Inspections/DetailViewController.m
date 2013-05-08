@@ -34,12 +34,14 @@
 - (void)configureView
 {
     // Update the user interface for the detail item.
-    self.navigationController.navigationBarHidden = YES;
+    // self.navigationController.navigationBarHidden = YES;
 
     if (self.detailItem) {
-        self.navigationItem.title = [[self.detailItem valueForKey:@"timeStamp"] description];
+        self.navigationItem.title = [[self.detailItem valueForKey:@"vin"] description];
+        self.view.hidden = NO;
     } else {
-        
+        self.view.window.backgroundColor = [UIColor groupTableViewBackgroundColor];
+        self.view.hidden = YES;
     }
 }
 
@@ -60,7 +62,7 @@
 
 - (void)splitViewController:(UISplitViewController *)splitController willHideViewController:(UIViewController *)viewController withBarButtonItem:(UIBarButtonItem *)barButtonItem forPopoverController:(UIPopoverController *)popoverController
 {
-    barButtonItem.title = NSLocalizedString(@"Master", @"Master");
+    barButtonItem.title = NSLocalizedString(@"Inspections", @"Inspections");
     [self.navigationItem setLeftBarButtonItem:barButtonItem animated:YES];
     self.masterPopoverController = popoverController;
 }
