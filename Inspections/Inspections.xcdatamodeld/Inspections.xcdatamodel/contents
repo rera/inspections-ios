@@ -114,6 +114,7 @@
         <attribute name="supervisorDate" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="supervisorName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="supervisorSignature" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="tsi_AirLines" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="tsi_ApplyAudibleAirLeaks" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="tsi_BodyMounting" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -165,6 +166,6 @@
         <userInfo/>
     </entity>
     <elements>
-        <element name="Inspection" positionX="261" positionY="189" width="128" height="2430"/>
+        <element name="Inspection" positionX="261" positionY="189" width="128" height="2445"/>
     </elements>
 </model>

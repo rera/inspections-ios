@@ -10,4 +10,6 @@
 
 @interface SafetyInspectionChecklistViewController : UITableViewController
 
+@property(strong, nonatomic) NSManagedObject *inspection;
+
 @end

@@ -48,7 +48,7 @@
     
     // If appropriate, configure the new managed object.
     // Normally you should use accessor methods, but using KVC here avoids the need to add a custom class to the template.
-    [newManagedObject setValue:[NSDate date] forKey:@"timeStamp"];
+    [newManagedObject setValue:[NSDate date] forKey:@"dateInspected"];
     
     // Save the context.
     NSError *error = nil;
@@ -110,8 +110,19 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    // self.detailViewController = [[DetailViewController alloc] init];
+    self.detailViewController = (DetailViewController*)[self.storyboard instantiateViewControllerWithIdentifier: @"DetailViewController"];
     NSManagedObject *object = [[self fetchedResultsController] objectAtIndexPath:indexPath];
-    self.detailViewController.detailItem = object;
+    [self.detailViewController setDetailItem:object];
+    
+    NSMutableArray *viewControllerArray = [[NSMutableArray alloc] initWithArray:[[self.splitViewController.viewControllers objectAtIndex:1] viewControllers]];
+    [viewControllerArray removeObjectAtIndex:0];
+    
+    [viewControllerArray addObject:self.detailViewController];
+    self.splitViewController.delegate = self.detailViewController;
+    
+    [[self.splitViewController.viewControllers objectAtIndex:1] setViewControllers:viewControllerArray animated:NO];
+    [self.splitViewController viewWillAppear:YES];
 }
 
 #pragma mark - Fetched results controller
@@ -132,7 +143,7 @@
     
     // Edit the sort key as appropriate.
     NSSortDescriptor *completedSortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"completed" ascending:YES];
-    NSSortDescriptor *timeStampSortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"timeStamp" ascending:NO];
+    NSSortDescriptor *timeStampSortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"dateInspected" ascending:NO];
     NSArray *sortDescriptors = @[completedSortDescriptor, timeStampSortDescriptor];
     
     [fetchRequest setSortDescriptors:sortDescriptors];
@@ -217,7 +228,7 @@
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath
 {
     NSManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
-    cell.textLabel.text = [[object valueForKey:@"timeStamp"] description];
+    cell.textLabel.text = [[object valueForKey:@"dateInspected"] description];
 }
 
 @end

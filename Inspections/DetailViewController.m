@@ -37,8 +37,10 @@
     // self.navigationController.navigationBarHidden = YES;
 
     if (self.detailItem) {
-        self.navigationItem.title = [[self.detailItem valueForKey:@"vin"] description];
+        self.navigationItem.title = [[self.detailItem valueForKey:@"vehicleNumber"] description];
         self.view.hidden = NO;
+        
+        [self.tabBarController setSelectedIndex:0];
     } else {
         self.view.window.backgroundColor = [UIColor groupTableViewBackgroundColor];
         self.view.hidden = YES;

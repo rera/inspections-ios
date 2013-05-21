@@ -10,4 +10,6 @@
 
 @interface TrailerSafetyInspectionViewController : UITableViewController
 
+@property(strong, nonatomic) NSManagedObject *inspection;
+
 @end
