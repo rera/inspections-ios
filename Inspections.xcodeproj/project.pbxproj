@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3100417A174B156700E15BCC /* OilChangeInspectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31004179174B156700E15BCC /* OilChangeInspectionViewController.m */; };
+		3100417D174B159500E15BCC /* SafetyInspectionChecklistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3100417C174B159500E15BCC /* SafetyInspectionChecklistViewController.m */; };
+		31004180174B15B500E15BCC /* TrailerSafetyInspectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3100417F174B15B500E15BCC /* TrailerSafetyInspectionViewController.m */; };
 		9E403C6317399F2000A0D406 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E403C6217399F2000A0D406 /* UIKit.framework */; };
 		9E403C6517399F2000A0D406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E403C6417399F2000A0D406 /* Foundation.framework */; };
 		9E403C6717399F2000A0D406 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E403C6617399F2000A0D406 /* CoreGraphics.framework */; };
@@ -38,6 +41,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31004178174B156700E15BCC /* OilChangeInspectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OilChangeInspectionViewController.h; sourceTree = "<group>"; };
+		31004179174B156700E15BCC /* OilChangeInspectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OilChangeInspectionViewController.m; sourceTree = "<group>"; };
+		3100417B174B159500E15BCC /* SafetyInspectionChecklistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafetyInspectionChecklistViewController.h; sourceTree = "<group>"; };
+		3100417C174B159500E15BCC /* SafetyInspectionChecklistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafetyInspectionChecklistViewController.m; sourceTree = "<group>"; };
+		3100417E174B15B500E15BCC /* TrailerSafetyInspectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrailerSafetyInspectionViewController.h; sourceTree = "<group>"; };
+		3100417F174B15B500E15BCC /* TrailerSafetyInspectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrailerSafetyInspectionViewController.m; sourceTree = "<group>"; };
 		9E403C5F17399F2000A0D406 /* Inspections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inspections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E403C6217399F2000A0D406 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9E403C6417399F2000A0D406 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -141,6 +150,12 @@
 				9E403CAA1739BC4B00A0D406 /* SubmitViewController.h */,
 				9E403CAB1739BC4C00A0D406 /* SubmitViewController.m */,
 				9E403C6B17399F2000A0D406 /* Supporting Files */,
+				31004178174B156700E15BCC /* OilChangeInspectionViewController.h */,
+				31004179174B156700E15BCC /* OilChangeInspectionViewController.m */,
+				3100417B174B159500E15BCC /* SafetyInspectionChecklistViewController.h */,
+				3100417C174B159500E15BCC /* SafetyInspectionChecklistViewController.m */,
+				3100417E174B15B500E15BCC /* TrailerSafetyInspectionViewController.h */,
+				3100417F174B15B500E15BCC /* TrailerSafetyInspectionViewController.m */,
 			);
 			path = Inspections;
 			sourceTree = "<group>";
@@ -254,6 +269,9 @@
 				9E403CA61739BBCA00A0D406 /* SignaturesViewController.m in Sources */,
 				9E403CA91739BC1300A0D406 /* ReviewViewController.m in Sources */,
 				9E403CAC1739BC4C00A0D406 /* SubmitViewController.m in Sources */,
+				3100417A174B156700E15BCC /* OilChangeInspectionViewController.m in Sources */,
+				3100417D174B159500E15BCC /* SafetyInspectionChecklistViewController.m in Sources */,
+				31004180174B15B500E15BCC /* TrailerSafetyInspectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

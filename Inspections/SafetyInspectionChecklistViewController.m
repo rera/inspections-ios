@@ -1,18 +1,18 @@
 //
-//  ReviewViewController.m
+//  SafetyInspectionChecklistViewController.m
 //  Inspections
 //
-//  Created by David Cabrera on 5/7/13.
+//  Created by Christopher Cabrera on 5/20/13.
 //  Copyright (c) 2013 Rera Inc. All rights reserved.
 //
 
-#import "ReviewViewController.h"
+#import "SafetyInspectionChecklistViewController.h"
 
-@interface ReviewViewController ()
+@interface SafetyInspectionChecklistViewController ()
 
 @end
 
-@implementation ReviewViewController
+@implementation SafetyInspectionChecklistViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {

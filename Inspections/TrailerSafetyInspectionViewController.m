@@ -1,18 +1,18 @@
 //
-//  ReviewViewController.m
+//  TrailerSafetyInspectionViewController.m
 //  Inspections
 //
-//  Created by David Cabrera on 5/7/13.
+//  Created by Christopher Cabrera on 5/20/13.
 //  Copyright (c) 2013 Rera Inc. All rights reserved.
 //
 
-#import "ReviewViewController.h"
+#import "TrailerSafetyInspectionViewController.h"
 
-@interface ReviewViewController ()
+@interface TrailerSafetyInspectionViewController ()
 
 @end
 
-@implementation ReviewViewController
+@implementation TrailerSafetyInspectionViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
